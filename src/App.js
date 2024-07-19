@@ -2,13 +2,17 @@ import './App.css';
 
 //rcc
 import React, { Component } from 'react'
+import NavBar from './components/NavBar';
+import News from './components/News';
 
 export default class App extends Component {
-  c = 'Me';
+  // 1 c = 'Me';
   render() {
     return (
       <div>
-        Hello! my first classbased component {this.c}.
+        {/* 1 Hello! my first classbased component {this.c}. */}
+          <NavBar />
+          <News/>
       </div>
     )
   }
